@@ -12,7 +12,7 @@ struct LL {
 	LL *next;
 };
 
-int main() {
+int main10() {
 	LL *first = new LL;
 	first->data = 1;
 	first->next = new LL;
